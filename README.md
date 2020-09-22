@@ -13,4 +13,7 @@ Giving users a fast and easy way to track their money is important, but allowing
 # General Info
 
 ### What is Progressive Web Application (PWA)?
-- A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users. These apps meet certain requirements (see below), are deployed to servers, accessible through URLs, and indexed by search engines.
+- A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users. These apps meet certain requirements, are deployed to servers, accessible through URLs, and indexed by search engines.
+
+#### Offline Support
+- Apps should be able to work offline. Whether that be displaying a proper "offline" message or caching app data for display purpose.
