@@ -172,3 +172,14 @@ npm i express
 npm i mongoose
 
 ```
+### Run 
+- 1. On your VS Code clone the <a href="https://github.com/Ethanlloyd21/Budget-Tracker" taget="_black"> gibthub repository</a>.
+- 2. Install all dependencies (see above)
+- 3. Create a terminal on the Budget-Tracker folder and run:
+    ```` bash
+    mongod
+    ````
+- 4. Create another terminal on the same folder and run:
+    ``` bash
+    node server
+    ```
