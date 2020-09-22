@@ -162,3 +162,13 @@ self.addEventListener(`fetch`, event => {
 </script>
 
 ```
+
+# Install
+```bash
+npm i install
+
+npm i express
+
+npm i mongoose
+
+```
