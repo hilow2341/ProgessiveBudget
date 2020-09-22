@@ -17,3 +17,12 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 #### Offline Support
 - Apps should be able to work offline. Whether that be displaying a proper "offline" message or caching app data for display purpose.
+
+# Functionality 
+
+BUDGET-TRACKER Offline Functionality:
+- Enter deposits offline
+- Enter expenses offline
+
+When brought back online:
+- Offline entries should be added to tracker.
