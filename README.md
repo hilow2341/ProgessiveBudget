@@ -26,3 +26,33 @@ BUDGET-TRACKER Offline Functionality:
 
 When brought back online:
 - Offline entries should be added to tracker.
+
+## *In order to achieve OFFLINE SUPPORT, a manifest file and a service worker file must be created.*
+
+### Manifest ``` manifest.webmanifest ```
+- #### Purpose
+    - The manifest file is a simple text file (JSON file) that lists the resources (app's displayed name, icons, as well as splash screen) the browser should cache for offline access. 
+``` bash
+{
+    "short_name": "Budget-Tracker",
+    "name": "Budget-Tracker",
+    "icons": [
+        {
+            "src": "/img/icons/money.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "theme_color": "#ffffff"
+}
+
+```
+
+This can be linked in the main html file ``` index.html ```
+``` bash
+<link rel="manifest" href="/manifest.webmanifest" />
+
+```
